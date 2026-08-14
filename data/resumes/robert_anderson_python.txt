@@ -1,0 +1,19 @@
+ROBERT ANDERSON
+Email: robert.a@email.com | Phone: +1-555-0111
+
+PYTHON DEVELOPER
+Software developer with 3 years of experience writing clean, maintainable code in Python. Experienced in building server apps, scraping web data, and API construction.
+
+EDUCATION
+- Bachelor of Science in Computer Science | Texas A&M (2017 - 2021)
+
+EXPERIENCE
+Python Developer | DevHouse Corp (2021 - Present)
+- Built scraping engines and parsed HTML/XML databases with BeautifulSoup.
+- Developed REST APIs in Flask.
+- Maintained legacy script bases and migrated Python 2 scripts to Python 3.
+
+SKILLS
+- Languages: Python, Java, JavaScript
+- Frameworks: Flask, Django
+- Tools: BeautifulSoup, Git, PostgreSQL, Docker, Linux

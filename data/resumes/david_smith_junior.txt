@@ -1,0 +1,19 @@
+DAVID SMITH
+Email: david.smith@email.com | Phone: +1-555-0177
+
+CAREER SUMMARY
+Junior Python developer eager to learn and grow. Passionate about software development, coding fundamentals, and building websites. Currently seeking a starting role in AI or Software Engineering.
+
+EDUCATION
+- Associate Degree in Information Technology | City College (2021 - 2023)
+
+EXPERIENCE
+Intern Developer | ByteCode Systems (6 months, 2023)
+- Assisted with Python scripting and minor bug fixes.
+- Wrote basic SQL queries for standard databases.
+- Documented project setups and API routes.
+
+SKILLS
+- Programming: Python, HTML, CSS, SQL (Basic)
+- Frameworks: Flask (Beginner)
+- Tools: Git, VS Code, Windows OS

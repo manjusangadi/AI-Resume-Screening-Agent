@@ -1,0 +1,23 @@
+MICHAEL BROWN
+Email: michael.b@email.com | Phone: +1-555-0155
+
+SENIOR WEB DEVELOPER
+Full-stack web architect with 8 years of experience building secure, scalable web applications. Expert in Javascript frameworks and high-performance server architectures.
+
+EDUCATION
+- Bachelor of Science in Computer Science | University of Michigan (2012 - 2016)
+
+EXPERIENCE
+Lead Architect | WebScale Inc (2020 - Present)
+- Designed full-stack platforms using React, Node.js, and MongoDB.
+- Optimized database query structures resulting in a 50% increase in load times.
+- Led a team of 5 junior and mid-level web developers.
+
+Senior Backend Engineer | NetBuild LLC (2016 - 2020)
+- Built RESTful APIs using Python, Django, and PostgreSQL.
+- Handled CI/CD workflows and server configurations on AWS.
+
+SKILLS
+- Web Development: JavaScript, React, Node.js, Express, HTML, CSS, Tailwind CSS
+- Databases: PostgreSQL, MongoDB, Redis
+- Cloud & Tools: AWS, Docker, Git, Python, Django, REST APIs
