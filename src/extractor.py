@@ -171,25 +171,27 @@ def extract_candidate_info_llm(text: str, provider: str, api_key: str) -> Dict[s
         from src.groq_service import GroqService, parse_json_safely
         groq_svc = GroqService(api_key=api_key)
         
-        system_prompt = """You are an expert recruitment system parsing a candidate's resume.
-Extract the following details from the resume text:
-1. Candidate Name
-2. Email Address
-3. Phone Number
-4. Technical and Soft Skills (as a list)
-5. Highest Education Degree (select from: PhD, Master, Bachelor, Associate, None)
-6. Years of Professional Experience (as a floating-point number, e.g. 3.5. Estimate from dates if not explicitly stated)
+        system_prompt = """
+            You are an expert recruitment system parsing a candidate's resume.
+            Extract the following details from the resume text:
+            1. Candidate Name
+            2. Email Address
+            3. Phone Number
+            4. Technical and Soft Skills (as a list)
+            5. Highest Education Degree (select from: PhD, Master, Bachelor, Associate, None)
+            6. Years of Professional Experience (as a floating-point number, e.g. 3.5. Estimate from dates if not explicitly stated)
 
-Return ONLY a valid JSON object with the following keys:
-{
-  "name": "...",
-  "email": "...",
-  "phone": "...",
-  "skills": ["...", "..."],
-  "education": "...",
-  "years_of_experience": 0.0
-}
-Do not write any markdown blocks (like ```json), commentary, or extra text. Just return the raw JSON."""
+            Return ONLY a valid JSON object with the following keys:
+            {
+            "name": "...",
+            "email": "...",
+            "phone": "...",
+            "skills": ["...", "..."],
+            "education": "...",
+            "years_of_experience": 0.0
+            }
+            Do not write any markdown blocks (like ```json), commentary, or extra text. Just return the raw JSON.
+        """
 
         user_prompt = f"Resume Content:\n\n{text}"
         response_text = groq_svc._call_groq(system_prompt, user_prompt, json_mode=True)

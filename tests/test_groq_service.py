@@ -1,3 +1,7 @@
+import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import pytest
 from src.groq_service import parse_json_safely, GroqService
 
@@ -29,7 +33,6 @@ def test_groq_service_availability():
     # If no key is set, it should return False
     service = GroqService(api_key=None)
     # Clear env key temporarily to test detection
-    import os
     original_key = os.environ.get("GROQ_API_KEY")
     try:
         if "GROQ_API_KEY" in os.environ:
