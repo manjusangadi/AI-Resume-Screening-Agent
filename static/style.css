@@ -123,6 +123,7 @@ body {
     font-size: 2.2rem;
     background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(0 0 8px var(--primary-glow));
 }
