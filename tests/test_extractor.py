@@ -2,15 +2,16 @@ import pytest
 from src.extractor import extract_candidate_info_heuristic
 
 def test_extract_candidate_info_heuristic():
-    resume_text = """John Doe
-Email: john.doe@example.com
-Phone: +1 555-0199
-Education: M.S. in Computer Science.
+    resume_text = """
+        John Doe
+        Email: john.doe@example.com
+        Phone: +1 555-0199
+        Education: M.S. in Computer Science.
 
-Experience:
-Senior Software Engineer (2020 - 2024)
-- Programmed in Python, SQL, and deployed with Docker on AWS.
-- Built NLP models.
+        Experience:
+        Senior Software Engineer (2020 - 2024)
+        - Programmed in Python, SQL, and deployed with Docker on AWS.
+        - Built NLP models.
 """
     info = extract_candidate_info_heuristic(resume_text)
     
