@@ -6,6 +6,14 @@
 
 This repository contains a production-grade, end-to-end **AI-Powered Resume Screening Agent** built to parse multi-format resume files (`.pdf`, `.docx`, `.txt`), extract structured fields (candidate metadata, skills, experience, education), calculate weighted suitability ratings against a job description, and output sorted rankings.
 
+## 🖼️ Dashboard Preview
+
+![Dashboard Overview](assets/screenshot_dashboard_loaded.png)
+*AI Resume Screening Agent Interactive Web Dashboard*
+
+![Groq Engine Screening Result](assets/screenshot_dashboard_groq.png)
+*Detailed Candidate Profile and Suitability Analysis*
+
 ---
 
 ## 🎯 One-Sentence Job Description
