@@ -2,6 +2,8 @@
 
 **AI-Resume-Screening-Agent — Junior AI Research Associate Selection Round (Intermediate Category)**
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Render-brightgreen?style=for-the-badge&logo=render)](https://ai-resume-screening-agent-wu8b.onrender.com)
+
 This repository contains a production-grade, end-to-end **AI-Powered Resume Screening Agent** built to parse multi-format resume files (`.pdf`, `.docx`, `.txt`), extract structured fields (candidate metadata, skills, experience, education), calculate weighted suitability ratings against a job description, and output sorted rankings.
 
 ---
